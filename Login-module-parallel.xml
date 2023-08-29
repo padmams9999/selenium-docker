@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Login-module-1" parallel="tests">
+    <test name="Login-test-1">
+        <parameter name="keyword" value="qtpworld2008@gmail.com" />
+        <classes>
+            <class name="com.searchmodule.tests.LoginTest" />
+        </classes>
+    </test>
+     <test name="Login-test-2">
+        <parameter name="keyword" value="qtpworld2008@gmail.com" />
+        <classes>
+            <class name="com.searchmodule.tests.LoginTest" />
+        </classes>
+    </test>
+     <test name="Login-test-3">
+        <parameter name="keyword" value="qtpworld2008@gmail.com" />
+        <classes>
+            <class name="com.searchmodule.tests.LoginTest" />
+        </classes>
+    </test>  
+         <test name="Login-test-4">
+        <parameter name="keyword" value="qtpworld2008@gmail.com" />
+        <classes>
+            <class name="com.searchmodule.tests.LoginTest" />
+        </classes>
+    </test>    
+</suite>

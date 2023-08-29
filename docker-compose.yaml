@@ -1,0 +1,40 @@
+version: "3"
+services:
+  hub:
+    image: selenium/hub:3.14
+    ports:
+      - "4444:4444"
+  chrome:
+    image: selenium/node-chrome:3.14
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+  firefox:
+    image: selenium/node-firefox:3.14
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+  Login-module-1:
+    image: padma99/selenium-docker
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      - HUB_HOST=hub
+      - BROWSER=chrome
+      - MODULE=Login-module-parallel.xml
+    volumes:
+      - ./output/module1-result:/usr/share/varad/test-output
+  Login-module-2:
+    image: padma99/selenium-docker
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      - HUB_HOST=hub
+      - BROWSER=firefox
+      - MODULE=Login-module-parallel2.xml
+    volumes:
+      - ./output/module2-result:/usr/share/varad/test-output

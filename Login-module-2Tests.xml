@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="search-module">
+    <test name="search-test-java">
+        <parameter name="keyword" value="qtpworld2008@gmail.com" />
+        <classes>
+            <class name="com.searchmodule.tests.LoginTest" />
+        </classes>
+    </test>
+    <test name="search-test-webdriver">
+        <parameter name="keyword" value="123" />
+        <classes>
+            <class name="com.searchmodule.tests.LoginTest" />
+        </classes>
+    </test>   
+</suite>

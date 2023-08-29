@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login-module]" parallel="tests">
+  <test thread-count="5" name="Login-test-4(failed)" parallel="tests">
+    <parameter name="keyword" value="qtpworld2008@gmail.com"/>
+    <classes>
+      <class name="com.searchmodule.tests.LoginTest">
+        <methods>
+          <include name="search"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login-test-4(failed) -->
+  <test thread-count="5" name="Login-test-3(failed)" parallel="tests">
+    <parameter name="keyword" value="qtpworld2008@gmail.com"/>
+    <classes>
+      <class name="com.searchmodule.tests.LoginTest">
+        <methods>
+          <include name="search"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login-test-3(failed) -->
+  <test thread-count="5" name="Login-test-2(failed)" parallel="tests">
+    <parameter name="keyword" value="qtpworld2008@gmail.com"/>
+    <classes>
+      <class name="com.searchmodule.tests.LoginTest">
+        <methods>
+          <include name="search"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login-test-2(failed) -->
+  <test thread-count="5" name="Login-test-1(failed)" parallel="tests">
+    <parameter name="keyword" value="qtpworld2008@gmail.com"/>
+    <classes>
+      <class name="com.searchmodule.tests.LoginTest">
+        <methods>
+          <include name="search"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login-test-1(failed) -->
+</suite> <!-- Failed suite [Login-module] -->

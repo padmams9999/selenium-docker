@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [search-module]">
+  <test thread-count="5" name="search-test-java(failed)">
+    <parameter name="keyword" value="qtpworld2008@gmail.com"/>
+    <classes>
+      <class name="com.searchmodule.tests.LoginTest">
+        <methods>
+          <include name="search"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </classes>
+  </test> <!-- search-test-java(failed) -->
+  <test thread-count="5" name="search-test-webdriver(failed)">
+    <parameter name="keyword" value="123"/>
+    <classes>
+      <class name="com.searchmodule.tests.LoginTest">
+        <methods>
+          <include name="search"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </classes>
+  </test> <!-- search-test-webdriver(failed) -->
+</suite> <!-- Failed suite [search-module] -->

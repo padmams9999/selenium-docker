@@ -1,0 +1,11 @@
+2023-08-09 09:18:05,381 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-08-09 11:09:44,343 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.udemy.selenium.docker:selenium-docker:1.0-SNAPSHOT @ D:\SeleniumDocker\02-selenium-4.8.2-testng\pom.xml.
+2023-08-09 11:09:46,083 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-09 11:09:46,084 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SeleniumDocker\02-selenium-4.8.2-testng\src\main\resources
+2023-08-09 11:09:46,089 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-09 11:09:46,090 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SeleniumDocker\02-selenium-4.8.2-testng\src\test\resources
+2023-08-09 11:09:46,567 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.udemy.selenium.docker:selenium-docker:1.0-SNAPSHOT @ D:\SeleniumDocker\02-selenium-4.8.2-testng\pom.xml.
+2023-08-09 11:09:47,976 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-09 11:09:47,977 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SeleniumDocker\02-selenium-4.8.2-testng\src\main\resources
+2023-08-09 11:09:47,979 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-09 11:09:47,980 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SeleniumDocker\02-selenium-4.8.2-testng\src\test\resources

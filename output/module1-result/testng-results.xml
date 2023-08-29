@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login-module-1" duration-ms="178898" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:21:48Z">
+    <groups>
+    </groups>
+    <test name="Login-test-3" duration-ms="4198" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:18:53Z">
+      <class name="com.searchmodule.tests.LoginTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.LoginTest@7c75222b]" name="setupDriver" is-config="true" duration-ms="2133" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3d8c7aca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.LoginTest@7c75222b]" name="search" duration-ms="1988" started-at="2023-08-28T15:18:51Z" finished-at="2023-08-28T15:18:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.LoginTest@7c75222b]" name="quitDriver" is-config="true" duration-ms="67" started-at="2023-08-28T15:18:53Z" finished-at="2023-08-28T15:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </test> <!-- Login-test-3 -->
+    <test name="Login-test-1" duration-ms="171733" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:21:41Z">
+      <class name="com.searchmodule.tests.LoginTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.LoginTest@23223dd8]" name="setupDriver" is-config="true" duration-ms="4783" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5ebec15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.LoginTest@23223dd8]" name="search" duration-ms="166885" started-at="2023-08-28T15:18:54Z" finished-at="2023-08-28T15:21:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.LoginTest@23223dd8]" name="quitDriver" is-config="true" duration-ms="64" started-at="2023-08-28T15:21:41Z" finished-at="2023-08-28T15:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </test> <!-- Login-test-1 -->
+    <test name="Login-test-2" duration-ms="175475" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:21:44Z">
+      <class name="com.searchmodule.tests.LoginTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.LoginTest@2d209079]" name="setupDriver" is-config="true" duration-ms="172316" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:21:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21bcffb5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.LoginTest@2d209079]" name="search" duration-ms="3042" started-at="2023-08-28T15:21:41Z" finished-at="2023-08-28T15:21:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.LoginTest@2d209079]" name="quitDriver" is-config="true" duration-ms="115" started-at="2023-08-28T15:21:44Z" finished-at="2023-08-28T15:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </test> <!-- Login-test-2 -->
+    <test name="Login-test-4" duration-ms="178898" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:21:48Z">
+      <class name="com.searchmodule.tests.LoginTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.LoginTest@7c30a502]" name="setupDriver" is-config="true" duration-ms="176020" started-at="2023-08-28T15:18:49Z" finished-at="2023-08-28T15:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@380fb434]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.LoginTest@7c30a502]" name="search" duration-ms="2814" started-at="2023-08-28T15:21:45Z" finished-at="2023-08-28T15:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.LoginTest@7c30a502]" name="quitDriver" is-config="true" duration-ms="63" started-at="2023-08-28T15:21:48Z" finished-at="2023-08-28T15:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.LoginTest -->
+    </test> <!-- Login-test-4 -->
+  </suite> <!-- Login-module-1 -->
+</testng-results>
