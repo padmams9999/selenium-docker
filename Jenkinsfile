@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Jar') {
             agent {
-                DOCKER1 {
+                docker {
                     image 'maven:3.9.4-eclipse-temurin-11-alpine'
                     args '-v D:/Selenium Complete Pack/Selenium Docker/jenkins git/.m2:/root/.m2'
                 }
